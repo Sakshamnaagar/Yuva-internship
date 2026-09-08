@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Brew Haven is a welcoming coffee shop serving fresh coffee, tea, snacks, and desserts.">
+
+    <title>Brew Haven Coffee Shop</title>
+
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+    <!-- Skip navigation link for keyboard and screen-reader users -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a href="#home" class="logo" aria-label="Brew Haven home">
+                Brew Haven
+            </a>
+
+            <nav aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+
+            <div class="container hero-content">
+
+                <div>
+                    <p class="eyebrow">Fresh • Local • Delicious</p>
+
+                    <h1 id="hero-title">
+                        Your Perfect Cup of Coffee
+                    </h1>
+
+                    <p class="hero-text">
+                        Enjoy freshly prepared coffee, delicious snacks,
+                        and a relaxing atmosphere at Brew Haven.
+                    </p>
+
+                    <a href="#menu" class="button">
+                        Explore Our Menu
+                    </a>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=75"
+                        alt="Freshly brewed coffee served in a ceramic cup"
+                        width="800"
+                        height="600"
+                        fetchpriority="high">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section" aria-labelledby="about-title">
+
+            <div class="container">
+
+                <h2 id="about-title">About Brew Haven</h2>
+
+                <p>
+                    Brew Haven is a local coffee shop dedicated to serving
+                    freshly brewed beverages and quality food in a friendly
+                    environment. Our goal is to provide every customer with
+                    a comfortable and enjoyable experience.
+                </p>
+
+                <div class="features">
+
+                    <article class="feature-card">
+                        <h3>Fresh Coffee</h3>
+                        <p>
+                            We prepare every cup using freshly roasted coffee beans.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Quality Food</h3>
+                        <p>
+                            Enjoy freshly prepared snacks, sandwiches, and desserts.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <h3>Friendly Service</h3>
+                        <p>
+                            Our team is committed to making every visit enjoyable.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="section section-light"
+                 aria-labelledby="menu-title">
+
+            <div class="container">
+
+                <h2 id="menu-title">Our Menu</h2>
+
+                <div class="menu-grid">
+
+                    <article class="menu-card">
+                        <h3>Classic Coffee</h3>
+                        <p>Freshly brewed premium coffee.</p>
+                        <strong>₹120</strong>
+                    </article>
+
+                    <article class="menu-card">
+                        <h3>Cappuccino</h3>
+                        <p>Rich espresso with steamed milk.</p>
+                        <strong>₹160</strong>
+                    </article>
+
+                    <article class="menu-card">
+                        <h3>Cold Coffee</h3>
+                        <p>Chilled coffee with creamy milk.</p>
+                        <strong>₹180</strong>
+                    </article>
+
+                    <article class="menu-card">
+                        <h3>Chocolate Cake</h3>
+                        <p>Soft and delicious chocolate cake.</p>
+                        <strong>₹150</strong>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section" aria-labelledby="contact-title">
+
+            <div class="container">
+
+                <h2 id="contact-title">Contact Us</h2>
+
+                <form class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            autocomplete="name"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="button">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <p>
+                2026 Brew Haven Coffee Shop.
+                All rights reserved.
+            </p>
+
+            <p>
+                Open daily: 8:00 AM – 9:00 PM
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
