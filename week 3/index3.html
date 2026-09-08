@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 - Interactive Web Page</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">WebDev</div>
+
+            <button id="menuBtn" class="menu-btn">☰</button>
+
+            <ul id="navMenu" class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="themeBtn" class="theme-btn">🌙</button>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <h1>Interactive Web Experience</h1>
+
+            <p>
+                A static webpage enhanced with JavaScript
+                for a better user experience.
+            </p>
+
+            <button id="learnBtn" class="primary-btn">
+                Learn More
+            </button>
+
+            <p id="message"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+
+        <h2>Interactive Features</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌙 Dark Mode</h3>
+                <p>
+                    Switch between light and dark themes.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📱 Mobile Menu</h3>
+                <p>
+                    Responsive navigation menu using JavaScript.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✅ Form Validation</h3>
+                <p>
+                    Validate user input before submission.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+
+        <h2>About This Project</h2>
+
+        <p>
+            This project demonstrates how JavaScript can transform
+            a static webpage into an interactive user interface.
+            DOM manipulation and event handling are used to create
+            dynamic behavior.
+        </p>
+
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="section">
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm">
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+                <small id="nameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+                <small id="emailError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="messageInput">Message</label>
+                <textarea
+                    id="messageInput"
+                    rows="5"
+                    placeholder="Enter your message"
+                ></textarea>
+                <small id="messageError"></small>
+            </div>
+
+            <button type="submit" class="primary-btn">
+                Submit
+            </button>
+
+            <p id="successMessage"></p>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 WebDev | Week 3 Internship Task</p>
+    </footer>
+
+    <script src="script3.js"></script>
+
+</body>
+</html>
