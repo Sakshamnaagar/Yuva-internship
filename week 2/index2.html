@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Responsive Portfolio Website">
+    <meta name="author" content="Frontend Web Developer Intern">
+
+    <title>Responsive Portfolio</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <div class="logo">
+                MyPortfolio
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <main>
+
+        <section id="home" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="intro">Hello, I'm</p>
+
+                    <h1>Deep Kumar</h1>
+
+                    <h2>Frontend Web Developer</h2>
+
+                    <p>
+                        I create modern, responsive and user-friendly websites
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="#projects" class="btn">
+                        View My Projects
+                    </a>
+                </div>
+
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        DK
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+                        <p>
+                            I am a BTech Computer Science student interested
+                            in frontend development and modern web technologies.
+                            I enjoy creating websites that are attractive,
+                            responsive and easy to use.
+                        </p>
+
+                        <p>
+                            This project demonstrates responsive web design
+                            techniques including Flexbox, CSS Grid, fluid
+                            typography, responsive images and media queries.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+
+            <div class="container">
+
+                <h2 class="section-title">My Skills</h2>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <h3>HTML5</h3>
+                        <p>
+                            Semantic and well-structured webpage development.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>CSS3</h3>
+                        <p>
+                            Responsive layouts, Flexbox, Grid and animations.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>
+                            Creating interactive and dynamic web experiences.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>C++</h3>
+                        <p>
+                            Problem solving and data structure implementation.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <h2 class="section-title">My Projects</h2>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            🌐
+                        </div>
+
+                        <div class="project-content">
+                            <h3>Student Management System</h3>
+
+                            <p>
+                                A web-based system for managing student
+                                information, attendance and results.
+                            </p>
+
+                            <a href="#" class="project-link">
+                                View Project
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            🛒
+                        </div>
+
+                        <div class="project-content">
+                            <h3>E-Commerce Website</h3>
+
+                            <p>
+                                A responsive shopping website containing
+                                products, categories and shopping sections.
+                            </p>
+
+                            <a href="#" class="project-link">
+                                View Project
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            ☕
+                        </div>
+
+                        <div class="project-content">
+                            <h3>Coffee Shop Website</h3>
+
+                            <p>
+                                A responsive coffee shop website with menu,
+                                about, testimonials and contact sections.
+                            </p>
+
+                            <a href="#" class="project-link">
+                                View Project
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+
+            <div class="container">
+
+                <h2 class="section-title">Contact Me</h2>
+
+                <form class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            rows="5"
+                            placeholder="Enter your message"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © 2026 MyPortfolio. All Rights Reserved.
+            </p>
+
+            <p>
+                Designed using HTML5 and CSS3
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
